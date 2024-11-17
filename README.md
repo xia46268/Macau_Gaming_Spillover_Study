@@ -47,16 +47,16 @@ Empirical tests were conducted using multiple regression models and mediation an
 ## Results
 ### Hypothesis Testing Models
 
-#### Hypothesis \( H_1 \):
-\[ 
-\text{ASRHI} = -207.495 + 1.956^{***} \ln(\text{GGP}) - 0.435 \text{lagAVeh} + 16.041 \text{laglnEply} + \varepsilon 
+#### Hypothesis H₁:
+\[
+ASRHI = -207.495 + 1.956^{***} ln(GGP) - 0.435 lagAVeh + 16.041 laglnEply + \varepsilon
 \]
 
-#### Hypothesis \( H_2 \):
+#### Hypothesis H₂:
 \[
-\begin{aligned} 
-\text{ACMI} & = -119.187 + 1.491^{*} \ln(\text{GGP}) - 0.169 \text{lagAVeh} + 8.841 \text{laglnEply} + \varepsilon \\
-\text{ASRHI} & = -141.976^{**} + 0.550^{***} \text{ACMI} + 1.136^{***} \ln(\text{GGP}) - 0.342^{**} \text{lagAVeh} + 11.181^{**} \text{laglnEply} + \varepsilon 
+\begin{aligned}
+ACMI & = -119.187 + 1.491^{*} ln(GGP) - 0.169 lagAVeh + 8.841 laglnEply + \varepsilon \\
+ASRHI & = -141.976^{**} + 0.550^{***} ACMI + 1.136^{***} ln(GGP) - 0.342^{**} lagAVeh + 11.181^{**} laglnEply + \varepsilon
 \end{aligned}
 \]
 
