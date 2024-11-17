@@ -47,18 +47,19 @@ Empirical tests were conducted using multiple regression models and mediation an
 ## Results
 ### Hypothesis Testing Models
 
-#### Hypothesis \( H_1 \):
+#### H₁:
 \[
 \text{ASRHI} = -207.495 + 1.956^{***} \cdot \ln(\text{GGP}) - 0.435 \cdot \text{lagAVeh} + 16.041 \cdot \text{laglnEply} + \varepsilon
 \]
 
-#### Hypothesis \( H_2 \):
+#### H₂:
 \[
-\begin{cases} 
-\text{ACMI} = -119.187 + 1.491^{*} \cdot \ln(\text{GGP}) - 0.169 \cdot \text{lagAVeh} + 8.841 \cdot \text{laglnEply} + \varepsilon \\ 
-\text{ASRHI} = -141.976^{**} + 0.550^{***} \cdot \text{ACMI} + 1.136^{***} \cdot \ln(\text{GGP}) - 0.342^{**} \cdot \text{lagAVeh} + 11.181^{**} \cdot \text{laglnEply} + \varepsilon 
-\end{cases}
+\begin{aligned}
+\text{ACMI} &= -119.187 + 1.491^{*} \cdot \ln(\text{GGP}) - 0.169 \cdot \text{lagAVeh} + 8.841 \cdot \text{laglnEply} + \varepsilon \\
+\text{ASRHI} &= -141.976^{**} + 0.550^{***} \cdot \text{ACMI} + 1.136^{***} \cdot \ln(\text{GGP}) - 0.342^{**} \cdot \text{lagAVeh} + 11.181^{**} \cdot \text{laglnEply} + \varepsilon
+\end{aligned}
 \]
+
 
 
 ### Table 1: Results of Mediation Effect Test
