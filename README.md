@@ -48,18 +48,11 @@ Empirical tests were conducted using multiple regression models and mediation an
 ### Hypothesis Testing Models
 
 #### Hypothesis H₁:
-\[
-\mathit{ASRHI} = -207.495 + 1.956*** \mathit{ln(GGP)} - 0.435 \mathit{lagAVeh} + 16.041 \mathit{laglnEply} + \mathit{eps}
-\]
+ASRHI = -207.495 + 1.956*** ln(GGP) - 0.435 lagAVeh + 16.041 laglnEply + eps
 
 #### Hypothesis H₂:
-\[
-\begin{aligned}
-\mathit{ACMI} & = -119.187 + 1.491* \mathit{ln(GGP)} - 0.169 \mathit{lagAVeh} + 8.841 \mathit{laglnEply} + \mathit{eps} \\
-\mathit{ASRHI} & = -141.976** + 0.550*** \mathit{ACMI} + 1.136*** \mathit{ln(GGP)} - 0.342** \mathit{lagAVeh} + 11.181** \mathit{laglnEply} + \mathit{eps}
-\end{aligned}
-\]
-
+ACMI = -119.187 + 1.491* ln(GGP) - 0.169 lagAVeh + 8.841 laglnEply + eps 
+ASRHI = -141.976** + 0.550*** ACMI + 1.136*** ln(GGP) - 0.342** lagAVeh + 11.181** laglnEply + eps
 
 ### Table 1: Results of Mediation Effect Test
 | Bootstrap | Coef | Bias | Std Err | 95% Conf Interval (P) | 95% Conf Interval (BC) |
