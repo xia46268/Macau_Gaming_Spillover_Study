@@ -49,17 +49,16 @@ Empirical tests were conducted using multiple regression models and mediation an
 
 #### Hypothesis H₁:
 \[
-ASRHI = -207.495 + 1.956^{***} ln(GGP) - 0.435 lagAVeh + 16.041 laglnEply + \varepsilon
+ASRHI = -207.495 + 1.956*** ln(GGP) - 0.435 lagAVeh + 16.041 laglnEply + eps
 \]
 
 #### Hypothesis H₂:
 \[
 \begin{aligned}
-ACMI & = -119.187 + 1.491^{*} ln(GGP) - 0.169 lagAVeh + 8.841 laglnEply + \varepsilon \\
-ASRHI & = -141.976^{**} + 0.550^{***} ACMI + 1.136^{***} ln(GGP) - 0.342^{**} lagAVeh + 11.181^{**} laglnEply + \varepsilon
+ACMI & = -119.187 + 1.491* ln(GGP) - 0.169 lagAVeh + 8.841 laglnEply + eps \\
+ASRHI & = -141.976** + 0.550*** ACMI + 1.136*** ln(GGP) - 0.342** lagAVeh + 11.181** laglnEply + eps
 \end{aligned}
 \]
-
 
 ### Table 1: Results of Mediation Effect Test
 | Bootstrap | Coef | Bias | Std Err | 95% Conf Interval (P) | 95% Conf Interval (BC) |
