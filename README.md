@@ -53,14 +53,14 @@ Empirical tests were conducted using multiple regression models and mediation an
 | Direct Effect   | 1.1362 | -0.0140 | 0.0483 | 1.0726, 1.1910  | 1.0726, 1.1910  |
 | Total Effect    | 1.9558 | -0.1770 | 0.3603 | 1.1838, 2.1392  | 1.1838, 2.1392  |
 
-### Table 2: Descriptive Statistics
+### Table 3: Descriptive Statistics
 | Variable | N | Mean   | Median | Std Dev | Min     | Max     |
 |----------|---|--------|--------|---------|---------|---------|
 | ASRHI    | 8 | 32,199 | 32,386 | 6,207   | 20,978  | 39,917  |
 | lnGGP    | 8 | 12.19  | 12.42  | 0.64    | 11.01   | 12.77   |
 | ACMI     | 7 | 4,087  | 3,817  | 1,519   | 2,460   | 6,027   |
 
-### Table 3: Pairwise Correlation
+### Table 4: Pairwise Correlation
 | Variables | ASRHI | ACMI | lnGGP | lagAVeh | laglnEply |
 |-----------|-------|------|-------|---------|-----------|
 | ASRHI     | 1.000 |      |       |         |           |
@@ -68,6 +68,15 @@ Empirical tests were conducted using multiple regression models and mediation an
 | lnGGP     | 0.874 | 0.583| 1.000 |         |           |
 | lagAVeh   | 0.197 | 0.301| 0.369 | 1.000   |           |
 | laglnEply |-0.186 |-0.105|-0.177 | 0.681   | 1.000     |
+
+### Other tables in the appendix:
+- Table 2
+Description of Model Variables
+![image](https://github.com/user-attachments/assets/c35810aa-3250-492d-bdad-c5edb4519988)
+
+- Table 5: Model Regression Results Table
+![image](https://github.com/user-attachments/assets/1b175897-ed3d-4282-aa40-9b22e2e8d4a8)
+
 
 ---
 
