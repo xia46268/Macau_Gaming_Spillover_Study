@@ -1,4 +1,4 @@
-# Beyond Gaming: Unpacking the Spillover Effects of Macau’s Casino Gaming Industry
+# [Beyond Gaming: Unpacking the Spillover Effects of Macau’s Casino Gaming Industry](https://github.com/xia46268/Macau_Gaming_Spillover_Study/blob/main/Rong%20Xia%20-%20Written%20Sample%20-Beyond%20Gaming%20Unpacking%20the%20Spillover%20Effects%20of%20Macau%E2%80%99s%20Casino%20Gaming%20Industry%20on%20Accommodation%2C%20Restaurant%2C%20and%20Retail%20Sectors%20with%20Mediating%20Role%20of%20MICE%20and%20Cultural%20Industries.pdf)
 
 **Rong Xia**  
 Department of Economics, University of Southern California  
