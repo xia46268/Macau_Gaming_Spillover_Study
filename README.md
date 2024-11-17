@@ -48,17 +48,18 @@ Empirical tests were conducted using multiple regression models and mediation an
 ### Hypothesis Testing Models
 
 #### Hypothesis \( H_1 \):
-\[
-\text{ASRHI} = -207.495 + 1.956^{***} \cdot \ln(\text{GGP}) - 0.435 \cdot \text{lagAVeh} + 16.041 \cdot \text{laglnEply} + \varepsilon
+\[ 
+\text{ASRHI} = -207.495 + 1.956^{***} \ln(\text{GGP}) - 0.435 \text{lagAVeh} + 16.041 \text{laglnEply} + \varepsilon 
 \]
 
 #### Hypothesis \( H_2 \):
 \[
-\begin{aligned}
-\text{ACMI} & = -119.187 + 1.491^{*} \cdot \ln(\text{GGP}) - 0.169 \cdot \text{lagAVeh} + 8.841 \cdot \text{laglnEply} + \varepsilon \\
-\text{ASRHI} & = -141.976^{**} + 0.550^{***} \cdot \text{ACMI} + 1.136^{***} \cdot \ln(\text{GGP}) - 0.342^{**} \cdot \text{lagAVeh} + 11.181^{**} \cdot \text{laglnEply} + \varepsilon
+\begin{aligned} 
+\text{ACMI} & = -119.187 + 1.491^{*} \ln(\text{GGP}) - 0.169 \text{lagAVeh} + 8.841 \text{laglnEply} + \varepsilon \\
+\text{ASRHI} & = -141.976^{**} + 0.550^{***} \text{ACMI} + 1.136^{***} \ln(\text{GGP}) - 0.342^{**} \text{lagAVeh} + 11.181^{**} \text{laglnEply} + \varepsilon 
 \end{aligned}
 \]
+
 
 ### Table 1: Results of Mediation Effect Test
 | Bootstrap | Coef | Bias | Std Err | 95% Conf Interval (P) | 95% Conf Interval (BC) |
