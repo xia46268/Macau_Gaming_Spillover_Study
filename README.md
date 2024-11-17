@@ -45,18 +45,21 @@ Empirical tests were conducted using multiple regression models and mediation an
 ---
 
 ## Results
-#### H₁:
-\[ 
-\text{ASRHI} = -207.495 + 1.956^{***} \ln(\text{GGP}) - 0.435 \cdot \text{lagAVeh} + 16.041 \cdot \text{laglnEply} + \varepsilon
+### Hypothesis Testing Models
+
+#### Hypothesis \( H_1 \):
+\[
+\text{ASRHI} = -207.495 + 1.956^{***} \cdot \ln(\text{GGP}) - 0.435 \cdot \text{lagAVeh} + 16.041 \cdot \text{laglnEply} + \varepsilon
 \]
 
-#### H₂:
+#### Hypothesis \( H_2 \):
 \[
-\begin{aligned}
-& \text{ACMI} = -119.187 + 1.491^{*} \ln(\text{GGP}) - 0.169 \cdot \text{lagAVeh} + 8.841 \cdot \text{laglnEply} + \varepsilon \\
-& \text{ASRHI} = -141.976^{**} + 0.550^{***} \text{ACMI} + 1.136^{***} \ln(\text{GGP}) - 0.342^{**} \text{lagAVeh} + 11.181^{**} \text{laglnEply} + \varepsilon
-\end{aligned}
+\begin{cases} 
+\text{ACMI} = -119.187 + 1.491^{*} \cdot \ln(\text{GGP}) - 0.169 \cdot \text{lagAVeh} + 8.841 \cdot \text{laglnEply} + \varepsilon \\ 
+\text{ASRHI} = -141.976^{**} + 0.550^{***} \cdot \text{ACMI} + 1.136^{***} \cdot \ln(\text{GGP}) - 0.342^{**} \cdot \text{lagAVeh} + 11.181^{**} \cdot \text{laglnEply} + \varepsilon 
+\end{cases}
 \]
+
 
 ### Table 1: Results of Mediation Effect Test
 | Bootstrap | Coef | Bias | Std Err | 95% Conf Interval (P) | 95% Conf Interval (BC) |
@@ -83,31 +86,11 @@ Empirical tests were conducted using multiple regression models and mediation an
 
 ### Other tables in the appendix:
 - Table 2: Description of Model Variables
-
-![image](https://github.com/user-attachments/assets/7bd09edc-4cbe-460d-be47-7bf6716384fa)
-
-
 - Table 5: Model Regression Results Table
-
-![image](https://github.com/user-attachments/assets/8cbe9530-fd8d-4b99-ac11-019861977d23)
-
 - Table 6: Results of Mediation Effect Test
-
-![image](https://github.com/user-attachments/assets/1801100a-48f0-45d0-9ecb-33098b589ab8)
-
 - Table 7: Table of VIF Values for Multicollinearity Test
-
-![image](https://github.com/user-attachments/assets/2228983c-546d-42ac-8526-d06bed3e0935)
-
 - Table 8: Robustness Test Model Regression Results Table
-
-![image](https://github.com/user-attachments/assets/a1859bc7-9ba7-4eb0-bd6c-ce6cf8fd8627)
-
 - Table 9: Results of Mediation Effect Test of Robustness Test
-
-![image](https://github.com/user-attachments/assets/53ab0d0e-dc11-4f5a-b48e-90a8ddbc02c3)
-
-
 ---
 
 ## Conclusion
@@ -115,7 +98,6 @@ This study provides evidence that the gaming industry’s growth in Macau has a 
 
 ---
 
-## References
 ## References
 
 - The World Bank Group. (2023). GDP (current US$) - Macao SAR, China. [Link](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=MO)
