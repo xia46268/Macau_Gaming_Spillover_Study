@@ -72,7 +72,9 @@ Empirical tests were conducted using multiple regression models and mediation an
 ### Other tables in the appendix:
 - Table 2
 Description of Model Variables
-![image](https://github.com/user-attachments/assets/c35810aa-3250-492d-bdad-c5edb4519988)
+
+![image](https://github.com/user-attachments/assets/199e49b0-0655-4af2-8eea-069db7b59ccc)
+
 
 - Table 5: Model Regression Results Table
 ![image](https://github.com/user-attachments/assets/1b175897-ed3d-4282-aa40-9b22e2e8d4a8)
