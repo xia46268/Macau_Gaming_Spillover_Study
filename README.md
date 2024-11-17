@@ -45,6 +45,18 @@ Empirical tests were conducted using multiple regression models and mediation an
 ---
 
 ## Results
+#### H₁:
+\[ 
+\text{ASRHI} = -207.495 + 1.956^{***} \ln(\text{GGP}) - 0.435 \cdot \text{lagAVeh} + 16.041 \cdot \text{laglnEply} + \varepsilon
+\]
+
+#### H₂:
+\[
+\begin{aligned}
+& \text{ACMI} = -119.187 + 1.491^{*} \ln(\text{GGP}) - 0.169 \cdot \text{lagAVeh} + 8.841 \cdot \text{laglnEply} + \varepsilon \\
+& \text{ASRHI} = -141.976^{**} + 0.550^{***} \text{ACMI} + 1.136^{***} \ln(\text{GGP}) - 0.342^{**} \text{lagAVeh} + 11.181^{**} \text{laglnEply} + \varepsilon
+\end{aligned}
+\]
 
 ### Table 1: Results of Mediation Effect Test
 | Bootstrap | Coef | Bias | Std Err | 95% Conf Interval (P) | 95% Conf Interval (BC) |
@@ -70,14 +82,30 @@ Empirical tests were conducted using multiple regression models and mediation an
 | laglnEply |-0.186 |-0.105|-0.177 | 0.681   | 1.000     |
 
 ### Other tables in the appendix:
-- Table 2
-Description of Model Variables
+- Table 2: Description of Model Variables
 
-![image](https://github.com/user-attachments/assets/199e49b0-0655-4af2-8eea-069db7b59ccc)
+![image](https://github.com/user-attachments/assets/7bd09edc-4cbe-460d-be47-7bf6716384fa)
 
 
 - Table 5: Model Regression Results Table
-![image](https://github.com/user-attachments/assets/1b175897-ed3d-4282-aa40-9b22e2e8d4a8)
+
+![image](https://github.com/user-attachments/assets/8cbe9530-fd8d-4b99-ac11-019861977d23)
+
+- Table 6: Results of Mediation Effect Test
+
+![image](https://github.com/user-attachments/assets/1801100a-48f0-45d0-9ecb-33098b589ab8)
+
+- Table 7: Table of VIF Values for Multicollinearity Test
+
+![image](https://github.com/user-attachments/assets/2228983c-546d-42ac-8526-d06bed3e0935)
+
+- Table 8: Robustness Test Model Regression Results Table
+
+![image](https://github.com/user-attachments/assets/a1859bc7-9ba7-4eb0-bd6c-ce6cf8fd8627)
+
+- Table 9: Results of Mediation Effect Test of Robustness Test
+
+![image](https://github.com/user-attachments/assets/53ab0d0e-dc11-4f5a-b48e-90a8ddbc02c3)
 
 
 ---
@@ -88,7 +116,32 @@ This study provides evidence that the gaming industry’s growth in Macau has a 
 ---
 
 ## References
-1. Brueckner, J. K. (1993). Inter-store externalities and space allocation in shopping centers.
-2. Eppli, M. J., & Shilling, J. D. (1995). Large-scale shopping center development opportunities.
-3. DSEC (Statistics and Census Service of Macau). (2023).
-4. The World Bank Group. (2023). GDP (current US$) - Macao SAR, China.
+## References
+
+- The World Bank Group. (2023). GDP (current US$) - Macao SAR, China. [Link](https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=MO)
+- DSEC (Direcção dos Serviços de Estatística e Censos, Statistics and Census Service of Macau). (2023). Statistics Databases. [Link](https://www.dsec.gov.mo/en-US/Statistic/Database)
+- Zhao, S. (2022, July 20). Macau Casino Crash Shifts World’s Gambling Crown to Las Vegas. *Bloomberg Businessweek*. [Link](https://www.bloomberg.com/news/articles/2022-07-20/china-s-covid-zero-rules-dampen-macau-s-gambling-revenue#xj4y7vzkg)
+- Government of the Macao Special Administrative Region. (2022, November). *Policy Address for the Fiscal Year 2023: Making progress while ensuring stability*.
+- Brueckner, J. K. (1993). Inter-store externalities and space allocation in shopping centers. *The Journal of Real Estate Finance and Economics, 7*, 5-16.
+- Eppli, M. J., & Shilling, J. D. (1995). Large-scale shopping center development opportunities. *Land Economics*, 35-41.
+- Zhang, W. (2022, December 17). 6 major gaming companies will invest a total of MOP 118.8 billion in non-gaming projects over the next 10 years. *HK01*. [Link](https://www.hk01.com/article/848068?utm_source=01articlecopy&utm_medium=referral)
+- Eadington, W. R. (1984). The casino gaming industry: A study of political economy. *The Annals of the American Academy of Political and Social Science, 474*(1), 23-35.
+- Eadington, W. R. (1999). The economics of casino gambling. *Journal of Economic Perspectives, 13*(3), 173-192.
+- Li, G., Gu, X., & Siu, R. C. S. (2010). The impacts of gaming expansion on economic growth: A theoretical reconsideration. *Journal of Gambling Studies, 26*, 269-285.
+- Benston, L. (2003, March 21). Park Place betting on Dion success. *Las Vegas Sun*. [Link](https://lasvegassun.com/news/2003/mar/21/park-place-betting-on-dion-success/)
+- Tyrangiel, J. (2003, March 21). Park Place betting on Dion success. *Time*. [Link](https://content.time.com/time/subscriber/article/0,33009,1004416,00.html)
+- Sheng, M., & Gu, C. (2018). Economic growth and development in Macau (1999–2016): The role of the booming gaming industry. *Cities, 75*, 72-80.
+- Liu, C., & Lin, Y. (2022). Macau’s sustainability and diversification. *Business Economics (Cleveland, Ohio)*, 1–5. Advance online publication. [Link](https://doi.org/10.1057/s11369-022-00260-9)
+- Luo, J. M., Lam, C. F., & Ye, B. H. (2019). Barriers for the Sustainable Development of Entertainment Tourism in Macau. *Sustainability, 11*(7), 2145. [Link](https://doi.org/10.3390/su11072145)
+- Liu, M. T., Chang, T. T. G., Loi, E. H., & Chan, A. C. H. (2015). Macau gambling industry: current challenges and opportunities next decade. *Asia Pacific Journal of Marketing and Logistics, 27*(3), 499-512.
+- Chen, S., & Luo, J. M. (2021). Assessing barriers to the development of convention tourism in Macau. *Cogent Social Sciences, 7*(1), 1928978. [Link](https://doi.org/10.1080/23311886.2021.1928978)
+- Qiu, S., Li, M., So, S. I., & Lehto, X. (2015). Competitiveness of Macau in developing the exhibition sector: Can gaming industry contribute?. *Journal of China Tourism Research, 11*(3), 278-296.
+- Zhang, X. (2022, November 16). Macao releases its policy report for the 2023 fiscal year: What else can Macao do besides gambling? *Jiemian News*. [Link](https://www.jiemian.com/article/8399083.html)
+- Palmeri, C. (2004). Rebuilding the Roman Empire: Can a massive makeover return Caesars to its Old Vegas glory. *Business Week, 3888*(June), 25-126.
+- Samuels, J. B. (1999). A qualitative investigation into the characteristics and synergistic relationships of non-gaming recreation/entertainment facilities in casino environments. *The Business of Gaming: Economic and Management Issues*, 303-315.
+- Atlas, R. (1995, May 8). Sex sells. *Forbes, 155*(10), 49-50.
+- Lucas, A. F., & Kilby, J. (2008). *Principles of Casino Marketing*. Okie International.
+- Yoshihashi, P. (1993, February). Entertainment: Stars fade as Las Vegas bets on families. *Wall Street Journal*, B1.
+- Suh, E., & Lucas, A. F. (2011). Estimating the impact of showroom entertainment on the gaming volumes of Las Vegas hotel–casinos. *International Journal of Hospitality Management, 30*(1), 103-111.
+- Baron, R. M., & Kenny, D. A. (1986). The moderator–mediator variable distinction in social psychological research: Conceptual, strategic, and statistical considerations. *Journal of Personality and Social Psychology, 51*(6), 1173.
+- Judd, C. M., & Kenny, D. A. (1981). Process analysis: Estimating mediation in treatment evaluations. *Evaluation Review, 5*(5), 602-619.
